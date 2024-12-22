@@ -1,0 +1,43 @@
+<p>intership-dashboard works!</p>
+
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Company Dashboard</h1><button class="btn" id="addNew">Add New Internship</button></header>
+        <section class="dashboard-content">
+            <h2>Your Posted Internships</h2>
+            <table class="dashboard-table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Location</th>
+                        <th>Deadline</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="internshipTable">
+                    <!-- Internship rows will be dynamically added -->
+                    <tr>
+                        <td>Web Developer Internship</td>
+                        <td>New York, NY
+                        </td>
+                        <td>2024-12-31</td>
+                        <td><button class="btn edit-btn">Edit</button><button class="btn delete-btn">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="company_dashboard.js"></script>
+    <nav>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registration_opportunity.html">Register Opportunity</a></li>
+            <li><a href="student_registration.html">Student Registration</a></li>
+            <li><a href="student_application.html">Student Application</a></li>
+            <li><a href="company_dashboard.html">Company Dashboard</a></li>
+            <li><a href="view_applications.html">View Applications</a></li>
+            <li><a href="view_internships.html">View Internships</a></li>
+            <li><a href="table_of_opportunities.html">Table of Opportunities</a></li>
+        </ul>
+    </nav><button onclick="location.href='view_applications.html'">Next</button></body>

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Background Styling */
+
+body {
+    /* Light gray background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.opportunities-container {
+    padding: 20px;
+    background: #f9f9f9;
+    min-height: 100vh;
+}
+
+.opportunities-header {
+    margin-bottom: 20px;
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+.opportunities-header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.opportunities-header p {
+    font-size: 1rem;
+}
+
+.filter-sort {
+    margin-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filter-sort label {
+    font-size: 1rem;
+    color: #555;
+    margin-right: 5px;
+}
+
+.filter-sort input,
+.filter-sort select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    width: 200px;
+}
+
+.filter-group button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opportunities-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.opportunities-table th,
+.opportunities-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.opportunities-table th {
+    background: #007BFF;
+    color: #fff;
+}
+
+.opportunities-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.view-btn,
+.apply-btn {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.view-btn {
+    background: #28a745;
+}
+
+.apply-btn {
+    background: #007BFF;
+}
+
+.view-btn:hover,
+.apply-btn:hover {
+    opacity: 0.9;
+}
+
+nav {
+    background-color: #007BFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
